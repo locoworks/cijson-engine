@@ -39,7 +39,7 @@ jobs:
       - name: Discord notification
         if: steps.changesets.outputs.published == 'true'
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ secrets.CIJSON_DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'A new version of @locoworks/cijson-engine is released! Check here: https://github.com/locoworks/cijson-engine/releases'
+          args: "A new version of @locoworks/cijson-engine is released! Check here: https://github.com/locoworks/cijson-engine/releases"
