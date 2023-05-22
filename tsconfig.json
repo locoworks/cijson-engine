@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2019", "dom"],
+    "target": "ES2019",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declarationDir": "types",
+    "declaration": true
+  },
+  "testMatch": ["**/__test__/**/*.[jt]s?(x)"],
+  "include": ["src"],
+  "exclude": ["node_modules", "src/__test__", "src/**/*.test.ts"]
+}
