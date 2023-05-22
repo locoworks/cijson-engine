@@ -1,5 +1,11 @@
 # @locoworks/cijson-engine
 
+## 0.0.3
+
+### Patch Changes
+
+- 350d546: Add --passWithNoTests
+
 ## 0.0.2
 
 ### Patch Changes
